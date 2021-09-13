@@ -1,0 +1,14 @@
+{
+   "browser_action": {
+   },
+   "content_scripts": [ {
+      "css": [ "css/style.css" ],
+      "js": [ "js/jquery.js", "js/main.js" ],
+      "matches": [ "https://www.mangatown.com/manga/*/*/*" ]
+   } ],
+   "description": "Loads the whole chapter in a page for easy viewing.",
+   "manifest_version": 2,
+   "name": "Glitcher's Manga Reader",
+   "short_name": "Manga Reader",
+   "version": "0.0.1"
+}
